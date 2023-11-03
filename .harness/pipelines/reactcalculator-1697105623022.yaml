@@ -6,9 +6,9 @@ pipeline:
   properties:
     ci:
       codebase:
-        build: <+input>
         connectorRef: account.Github_OAuth_1695187682403
-        repoName: reactcalculator
+        repoName: https://github.com/SUBBARAMIREDDY-K/reactcalculator
+        build: <+input>
   stages:
     - stage:
         identifier: build
